@@ -1,0 +1,681 @@
+<!DOCTYPE>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>SISL Platform</title>
+	<link rel="stylesheet" type="text/css" href="./AnnotationTool_files/css">
+	<link rel="stylesheet" href="./AnnotationTool_files/font-awesome.min.css">
+	<!-- Material Kit CSS -->
+	<link href="./AnnotationTool_files/material-dashboard.css" rel="stylesheet">
+
+	<script src="./AnnotationTool_files/jquery-3.3.1.min.js"></script>
+	<script src="./AnnotationTool_files/bootstrap.min.js"></script>
+	<script src="./AnnotationTool_files/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="./AnnotationTool_files/style.css">
+	<script>
+	  $( function() {
+		$( ".tabs_class" ).tabs();
+		$('.dialogs_accordion').accordion({collapsible: true, active: false});
+	  } );
+	</script>
+	<style>
+	aside h2 {
+		color: #d8d8d8;
+		width: 100%;
+		text-align: center;
+		margin-top: 30px;
+	}
+	aside > div {
+		width: 100%;
+		text-align: center;
+		color: #FFF;
+		font-size: 22px;
+		margin-top: 30px;
+	}
+	aside > a {
+		width: 100%;
+		text-align: center;
+		display: block;
+		margin-top: 30px;
+		color: #4b96c1;
+		text-decoration: underline;
+	}
+	div.mtab-content {
+		max-height: 100%;
+	}
+	</style>
+</head>
+<body>
+
+
+
+<div class="wrapper ">
+	<div class="main-panel">
+		<nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+        <div class="container-fluid">
+          <div class="navbar-wrapper" style="padding-left: 20px;">
+            <h3>Current Profilic ID:
+				Demo			  </h3>
+          </div>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+            <span class="navbar-toggler-icon icon-bar"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end">
+				<a class="nav-link" href="https://annotations.sislabtn.it/response_evaluation.php" style="text-decoration: underline;">
+				  <p>Change ID</p>
+				</a>
+          </div>
+        </div>
+      </nav>
+		<div class="content">
+			<div class="container-fluid">
+						<div id="s_" class="mtab-content">
+																					<link href="./AnnotationTool_files/tips.css" media="screen" rel="stylesheet" type="text/css">
+<link href="./AnnotationTool_files/jquery-ui.css" rel="stylesheet">
+<script src="./AnnotationTool_files/jquery.scrollTo.min.js.trasferimento"></script>
+<div class="box">
+
+						<!--<div class="offer offer-success">
+							<div class="shape">
+								<div class="shape-text">
+									<span class="glyphicon glyphicon glyphicon-th"></span>
+								</div>
+							</div>
+							<div class="offer-content">
+								<h3 class="lead">
+									 Completed : <label class="label label-success"> 0 / 1</label>
+								</h3>
+
+									<div class="progress">
+										<div class="progress-bar progress-bar-success" role="progressbar" style="width: 0%" >
+											 0.0%
+										</div>
+									</div>
+							</div>
+						</div>-->
+					<div class="chat-container"><div class="chat"><div class="message-row"><div class="message-spk message-spk-pre-0">A</div><div class="message message0">at one time you had a positive feeling about what I’ve read in your notes, that is "we considered the possibility and constrains and at the end it came up in to my mind an other possibility that we didn't think about which solved the problem and I was lucky that there was viable way and then I smiled because the professor was really relived and grateful I felt a sense of accomplishment and relief like when you looking desperately for something and eventually you find it. " Do you have any other comments about this?</div><div class="message-spk message-spk-post-0">A</div></div><div class="message-row"><div class="message-spk message-spk-pre-1">B</div><div class="message message1">I've relized that maybe I don't trust enough in myself.</div><div class="message-spk message-spk-post-1">B</div></div><div class="message-row"><div class="message-spk message-spk-pre-0">A</div><div class="message message0">How did you realize that?</div><div class="message-spk message-spk-post-0">A</div></div><div class="message-row"><div class="message-spk message-spk-pre-1">B</div><div class="message message1">I thought surely I wouldn't be able to solve the problem.</div><div class="message-spk message-spk-post-1">B</div></div><div class="message-row"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2" id="fill-message">&lt;response candidate&gt;</div><div class="message-spk message-spk-post-0">A</div></div></div></div>						<div class="st-box story">
+							<div class="row box" style="background: #dadada;">
+								<div class="col-md-12 instructions">
+									<style>
+.c9 { font-weight: bold; }
+</style>
+<p class="c6"><span class="c0">Some pieces of a conversation between two speakers (A and B) are going to be shown and you are going to be asked to evaluate the response candidates proposed for each dialogue between A and B. ( The response candidates are identified in the yellow box “&lt;response candidate&gt;”).</response></span><span class="c2 c0"><a target="_blank" class="c3" href="https://docs.google.com/document/d/1mRRjx5atx2GF7AzgYZHOcrEW2dKkPnWl/edit#heading=h.gjdgxs"> Here</a></span><span class="c1 c0"> you can find the full version of the guidelines.</span></p><p class="c6"><span class="c1 c0">You are going to be asked to evaluate each response candidate by assessing 4 criteria: </span></p><ol class="c11 lst-kix_pe503a8msj2y-0 start" start="1"><li class="c5 li-bullet-0"><span class="c8">Appropriateness</span><span class="c0">, follow this </span><span class="c0"> </span><span class="c0 c2"><a target="_blank" class="c3" href="https://docs.google.com/document/d/1mRRjx5atx2GF7AzgYZHOcrEW2dKkPnWl/edit#bookmark=id.tyjcwt">link</a></span><span class="c1 c0">&nbsp; to see some examples</span></li><li class="c5 li-bullet-0"><span class="c8">Contextualization, follow this </span><span class="c2 c0"><a target="_blank" class="c3" href="https://docs.google.com/document/d/1mRRjx5atx2GF7AzgYZHOcrEW2dKkPnWl/edit#bookmark=id.1t3h5sf">link</a></span><span class="c1 c0">&nbsp; to see some examples.</span></li><li class="c5 li-bullet-0"><span class="c8">Listening</span><span class="c0">, follow this </span><span class="c2 c0"><a target="_blank" class="c3" href="https://docs.google.com/document/d/1mRRjx5atx2GF7AzgYZHOcrEW2dKkPnWl/edit#bookmark=id.3rdcrjn">link</a></span><span class="c1 c0">&nbsp;to see some examples</span></li><li class="c5 li-bullet-0"><span class="c8">Correctness</span><span class="c0">, follow this </span><span class="c2 c0"><a target="_blank" class="c3" href="https://docs.google.com/document/d/1mRRjx5atx2GF7AzgYZHOcrEW2dKkPnWl/edit#bookmark=id.lnxbz9">link</a></span><span class="c0 c1">&nbsp;to see some examples.
+</span></li></ol>
+<p class="c1"><span class="c9">All the shown texts are in uppercase, therefore, </span> <span class="c9">the absence of capitalization must not be considered an error.</span></p>
+<p class="c7"><span class="c0">After the evaluation, you’re going to be asked to write a note about your choice. For instance, “The word ‘friend’ is referring to a person that has been mentioned in the dialogue context” is an example of the motivation behind your choice.</span></p><p class="c4"><span class="c1 c0"></span></p>								</div>
+							</div>
+
+						<div class="st-box-inner" style="position:relative" id="count-navigation">
+							<ul class="nav nav-tabs" role="tablist">
+																<li id="presentation_0" class="presentation active">
+									<a href="https://annotations.sislabtn.it/response_evaluation.php?batch_id=glozljke-en&amp;lang=en#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+										<span class="round-tab">
+											1										</span>
+									</a>
+								</li>
+																<li id="presentation_1" class="presentation ">
+									<a href="https://annotations.sislabtn.it/response_evaluation.php?batch_id=glozljke-en&amp;lang=en#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+										<span class="round-tab">
+											2										</span>
+									</a>
+								</li>
+																<li id="presentation_2" class="presentation ">
+									<a href="https://annotations.sislabtn.it/response_evaluation.php?batch_id=glozljke-en&amp;lang=en#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+										<span class="round-tab">
+											3										</span>
+									</a>
+								</li>
+																<li id="presentation_3" class="presentation ">
+									<a href="https://annotations.sislabtn.it/response_evaluation.php?batch_id=glozljke-en&amp;lang=en#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Step 1">
+										<span class="round-tab">
+											4										</span>
+									</a>
+								</li>
+															</ul>
+						</div>
+
+						<form action="https://annotations.sislabtn.it/response_evaluation.php?batch_id=glozljke-en&amp;lang=en" method="POST" onsubmit="return verifyForm(this);">
+						<input type="hidden" name="save" value="1"><input type="hidden" name="worker_id" value="Demo"><input type="hidden" name="batch_id" value="glozljke-en"><input type="hidden" name="data_id" value="543"><input type="hidden" name="sample_id" value=""><input type="hidden" name="timestamp" value="1662995163">
+							<div class="question" id="question_0">
+							<input type="hidden" class="time_question" name="task_time_start_question_0" id="task_time_start_question_0" value="2022-9-12 17:6:3">
+							<input type="hidden" class="time_question" name="task_time_question_0" id="task_time_question_0">
+							<div class="question-row">
+							<h3>Appropriateness</h3>
+							<h4>Is the proposed response candidate appropriate?							<i class="fa fa-question-circle tips" tooltip-src="#question_0_tooltip"><span class="tooltip" style="display: none;"></span></i></h4>
+							<span class="tooltip" id="question_0_tooltip" style="display:none;">
+								You have to evaluate how much a response candidate is appropriate for a given context or not, that is if the response candidate is coherent and it makes sense in the current context.							</span>
+							<small>You have to evaluate how much a response candidate is appropriate for a given context or not, that is if the response candidate is coherent and it makes sense in the current context.</small>
+							</div>
+							<div class="answers-row">
+							<table class="striped" cellpadding="10">
+							<tbody><tr>
+															<th>Answer<br><small>Hovering on each response with the cursor of your mouse you would make appear the response that you are evaluating in the original conversation on your left.</small></th>
+								<th>Appropriate <i class="fa fa-question-circle tips" tooltip-src="#0_opt_0_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="0_opt_0_tooltip" style="display:none;">
+											The response candidate makes sense and it can be the natural response considering the shown dialogue context.
+										</span><small><br>The response candidate makes sense and it can be the natural response considering the shown dialogue context.</small></th><th>Not Appropriate <i class="fa fa-question-circle tips" tooltip-src="#0_opt_1_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="0_opt_1_tooltip" style="display:none;">
+											The response candidate does not make sense in the current dialogue context.
+										</span><small><br>The response candidate does not make sense in the current dialogue context.</small></th><th>I don't know <i class="fa fa-question-circle tips" tooltip-src="#0_opt_2_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="0_opt_2_tooltip" style="display:none;">
+											The response candidate has some parts that make sense with respect to the dialogue context, but some that do not
+										</span><small><br>The response candidate has some parts that make sense with respect to the dialogue context, but some that do not</small></th>							</tr>
+							<tr><td colspan="4"></td></tr><tr data-response-number="0" style=""><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm pleased about that. I hope that your therapist can help you in your job.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="0" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0" value="Appropriate">Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="1" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0" value="Not Appropriate">Not Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="2" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="0" style=""><td colspan="4"><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--0" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--0"><option value="-1">Select your choice</option><option value="natural_continuation">The response candidate is coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--0-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--1"><option value="-1">Select your choice</option><option value="not_coherent">The continuation is not coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--1-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--0--2-freetext"></div></td></tr><tr data-response-number="1" style="display: none;"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm sorry that you feel this way. Have you tried to talk with him in a moment after?</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="0" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0" value="Appropriate">Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="1" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0" value="Not Appropriate">Not Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="2" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="1" style="display: none;"><td colspan="4"><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--0" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--0"><option value="-1">Select your choice</option><option value="natural_continuation">The response candidate is coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--0-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--1"><option value="-1">Select your choice</option><option value="not_coherent">The continuation is not coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--1-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--76adaa54-fa70-4e11-8997-c30f5bb83963--0--2-freetext"></div></td></tr><tr data-response-number="2" style="display: none;"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">who solved the problem was really you. Try to declare yourself the value that you have.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="0" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0" value="Appropriate">Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="1" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0" value="Not Appropriate">Not Appropriate</td><td><input type="radio" onchange="showMore(this)" data-sampleid="61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="2" name="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="2" style="display: none;"><td colspan="4"><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--0" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--0"><option value="-1">Select your choice</option><option value="natural_continuation">The response candidate is coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--0-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--1"><option value="-1">Select your choice</option><option value="not_coherent">The continuation is not coherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--1-freetext" style="display:none;"></div><div class="more--61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_61c7f3b5-6502-4c18-960b-3d88acb9cd64--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--0--2-freetext"></div></td></tr>
+							</tbody></table>
+							</div>
+							<a class="btn btn-info" href="javascript:;" onclick="back(&#39;0&#39;);" style="display: none;">Previous</a><a class="btn btn-warning" href="javascript:;" onclick="proceed(&#39;0&#39;, &#39;&#39;);">Next</a>							</div>
+
+							<div class="question" id="question_1" style="display:none">
+							<input type="hidden" class="time_question" name="task_time_start_question_1" id="task_time_start_question_1">
+							<input type="hidden" class="time_question" name="task_time_question_1" id="task_time_question_1">
+							<div class="question-row">
+							<h3>Contextualization</h3>
+							<h4>Does the propose response candidate contain references to the context of the dialogue?							<i class="fa fa-question-circle tips" tooltip-src="#question_1_tooltip"><span class="tooltip" style="display: none;"></span></i></h4>
+							<span class="tooltip" id="question_1_tooltip" style="display:none;">
+								You have to evaluate if the response candidate contains references (implicit or explicit) to the shown dialogue context or not. 							</span>
+							<small>You have to evaluate if the response candidate contains references (implicit or explicit) to the shown dialogue context or not. </small>
+							</div>
+							<div class="answers-row">
+							<table class="striped" cellpadding="10">
+							<tbody><tr>
+															<th>Answer<br><small>Hovering on each response with the cursor of your mouse you would make appear the response that you are evaluating in the original conversation on your left.</small></th>
+								<th>Contextualized <i class="fa fa-question-circle tips" tooltip-src="#1_opt_0_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="1_opt_0_tooltip" style="display:none;">
+											The response candidate contains implicit or explicit references to the dialogue context (e.g. events, people, objects or emotions).
+										</span><small><br>The response candidate contains implicit or explicit references to the dialogue context (e.g. events, people, objects or emotions).</small></th><th>Not Contextualized <i class="fa fa-question-circle tips" tooltip-src="#1_opt_1_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="1_opt_1_tooltip" style="display:none;">
+											The response candidate does not contain any reference to the dialogue context.
+										</span><small><br>The response candidate does not contain any reference to the dialogue context.</small></th><th>I don't know <i class="fa fa-question-circle tips" tooltip-src="#1_opt_2_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="1_opt_2_tooltip" style="display:none;">
+											The response candidate contains some references to the dialogue context, but it contains other references that are not clear or relevant.
+										</span><small><br>The response candidate contains some references to the dialogue context, but it contains other references that are not clear or relevant.</small></th>							</tr>
+							<tr><td colspan="4"></td></tr><tr data-response-number="0"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm pleased about that. I hope that your therapist can help you in your job.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="0" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1" value="Contextualized">Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="1" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1" value="Not Contextualized">Not Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="2" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="0"><td colspan="4"><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1--1"><option value="-1">Select your choice</option><option value="no_references">The response candidate does not contain any reference to the dialogue context, or the references are generic.</option><option value="wrong_references">The response candidate is incoherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1--1-freetext" style="display:none;"></div><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--1--2-freetext"></div></td></tr><tr data-response-number="1"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm sorry that you feel this way. Have you tried to talk with him in a moment after?</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="0" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1" value="Contextualized">Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="1" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1" value="Not Contextualized">Not Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="2" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="1"><td colspan="4"><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1--1"><option value="-1">Select your choice</option><option value="no_references">The response candidate does not contain any reference to the dialogue context, or the references are generic.</option><option value="wrong_references">The response candidate is incoherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1--1-freetext" style="display:none;"></div><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--76adaa54-fa70-4e11-8997-c30f5bb83963--1--2-freetext"></div></td></tr><tr data-response-number="2"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">Who solved the problem was really you. Try to declare yourself the value that you have.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="0" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1" value="Contextualized">Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="1" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1" value="Not Contextualized">Not Contextualized</td><td><input type="radio" onchange="showMore(this)" data-sampleid="0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="2" name="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="2"><td colspan="4"><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1--1"><option value="-1">Select your choice</option><option value="no_references">The response candidate does not contain any reference to the dialogue context, or the references are generic.</option><option value="wrong_references">The response candidate is incoherent with the dialogue context.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1--1-freetext" style="display:none;"></div><div class="more--0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_0f40d02c-c572-4ef1-896f-979c8fd40fa4--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--1--2-freetext"></div></td></tr>
+							</tbody></table>
+							</div>
+							<a class="btn btn-info" href="javascript:;" onclick="back(&#39;1&#39;);">Previous</a><a class="btn btn-warning" href="javascript:;" onclick="proceed(&#39;1&#39;, &#39;&#39;);">Next</a>							</div>
+
+							<div class="question" id="question_2" style="display:none">
+							<input type="hidden" class="time_question" name="task_time_start_question_2" id="task_time_start_question_2">
+							<input type="hidden" class="time_question" name="task_time_question_2" id="task_time_question_2">
+							<div class="question-row">
+							<h3>Listening</h3>
+							<h4>In the proposed response candidate, how much do you think person A is listening to person B?							<i class="fa fa-question-circle tips" tooltip-src="#question_2_tooltip"><span class="tooltip" style="display: none;"></span></i></h4>
+							<span class="tooltip" id="question_2_tooltip" style="display:none;">
+								You have to evaluate how much the speaker A, in the response candidate to be evaluated, is really listening to the speaker B paying attention to the dialogue instead of replying with a generic response.							</span>
+							<small>You have to evaluate how much the speaker A, in the response candidate to be evaluated, is really listening to the speaker B paying attention to the dialogue instead of replying with a generic response.</small>
+							</div>
+							<div class="answers-row">
+							<table class="striped" cellpadding="10">
+							<tbody><tr>
+															<th>Answer<br><small>Hovering on each response with the cursor of your mouse you would make appear the response that you are evaluating in the original conversation on your left.</small></th>
+								<th>Listening <i class="fa fa-question-circle tips" tooltip-src="#2_opt_0_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="2_opt_0_tooltip" style="display:none;">
+											Speaker A is listening with attention to speaker B and follows the dialogue by making contextualized references to the dialogue context and/or showing to follow the dialogue flow.
+										</span><small><br>Speaker A is listening with attention to speaker B and follows the dialogue by making contextualized references to the dialogue context and/or showing to follow the dialogue flow.</small></th><th>Not Listening <i class="fa fa-question-circle tips" tooltip-src="#2_opt_1_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="2_opt_1_tooltip" style="display:none;">
+											Speaker A seems not to pay attention to what speaker B is saying.
+										</span><small><br>Speaker A seems not to pay attention to what speaker B is saying.</small></th><th>I don't know <i class="fa fa-question-circle tips" tooltip-src="#2_opt_2_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="2_opt_2_tooltip" style="display:none;">
+											it is unclear if speaker A is listening to speaker B or not, in some parts of the response condidate speaker A makes references to what speaker B is saying but in others speaker A proposes irrelevant content
+										</span><small><br>it is unclear if speaker A is listening to speaker B or not, in some parts of the response condidate speaker A makes references to what speaker B is saying but in others speaker A proposes irrelevant content</small></th>							</tr>
+							<tr><td colspan="4"></td></tr><tr data-response-number="0"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm pleased about that. I hope that your therapist can help you in your job.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="0" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--2" value="Listening">Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="1" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--2" value="Not Listening">Not Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="2" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--2" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="0"><td colspan="4"></td></tr><tr data-response-number="1"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm sorry that you feel this way. Have you tried to talk with him in a moment after?</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="0" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963--2" value="Listening">Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="1" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963--2" value="Not Listening">Not Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="2" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--76adaa54-fa70-4e11-8997-c30f5bb83963--2" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="1"><td colspan="4"></td></tr><tr data-response-number="2"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">Who solved the problem was really you. Try to declare yourself the value that you have.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="0" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--2" value="Listening">Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="1" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--2" value="Not Listening">Not Listening</td><td><input type="radio" onchange="showMore(this)" data-sampleid="1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="2" name="response_1e106a0a-77b7-4453-ab76-6067971ed2d0--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--2" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="2"><td colspan="4"></td></tr>
+							</tbody></table>
+							</div>
+							<a class="btn btn-info" href="javascript:;" onclick="back(&#39;2&#39;);">Previous</a><a class="btn btn-warning" href="javascript:;" onclick="proceed(&#39;2&#39;, &#39;&#39;);">Next</a>							</div>
+
+							<div class="question" id="question_3" style="display:none">
+							<input type="hidden" class="time_question" name="task_time_start_question_3" id="task_time_start_question_3">
+							<input type="hidden" class="time_question" name="task_time_question_3" id="task_time_question_3">
+							<div class="question-row">
+							<h3>Correctness</h3>
+							<h4>Is the proposed response candidate grammatically correct?							<i class="fa fa-question-circle tips" tooltip-src="#question_3_tooltip"><span class="tooltip" style="display: none;"></span></i></h4>
+							<span class="tooltip" id="question_3_tooltip" style="display:none;">
+								You have to evaluate either if the response candidate contains grammatical and/or structural errors or if the response candidate is correct.							</span>
+							<small>You have to evaluate either if the response candidate contains grammatical and/or structural errors or if the response candidate is correct.</small>
+							</div>
+							<div class="answers-row">
+							<table class="striped" cellpadding="10">
+							<tbody><tr>
+															<th>Answer<br><small>Hovering on each response with the cursor of your mouse you would make appear the response that you are evaluating in the original conversation on your left.</small></th>
+								<th>Correct <i class="fa fa-question-circle tips" tooltip-src="#3_opt_0_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="3_opt_0_tooltip" style="display:none;">
+											The response candidate does not contain any kind of errors.
+										</span><small><br>The response candidate does not contain any kind of errors.</small></th><th>Not Correct <i class="fa fa-question-circle tips" tooltip-src="#3_opt_1_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="3_opt_1_tooltip" style="display:none;">
+											The response candidate contains some grammatical or structural errors such as misspelling, punctuation or others.
+										</span><small><br>The response candidate contains some grammatical or structural errors such as misspelling, punctuation or others.</small></th><th>I don't know <i class="fa fa-question-circle tips" tooltip-src="#3_opt_2_tooltip"><span class="tooltip" style="display: none;"></span></i><span class="tooltip" id="3_opt_2_tooltip" style="display:none;">
+											It is hard to identify if the response contains errors or not.
+										</span><small><br>It is hard to identify if the response contains errors or not.</small></th>							</tr>
+							<tr><td colspan="4"></td></tr><tr data-response-number="0"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm pleased about that. I hope that your therapist can help you in your job.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="0" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3" value="Correct">Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="1" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3" value="Not Correct">Not Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" data-ref="2" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="0"><td colspan="4"><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3--1"><option value="-1">Select your choice</option><option value="errori_grammaticali">The response candidate contains grammatical errors.</option><option value="ripetizioni">The response candidate contains repetitions.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3--1-freetext" style="display:none;"></div><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--739709e1-8e47-4c6e-a46d-3ee98c2c76ca--3--2-freetext"></div></td></tr><tr data-response-number="1"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">I'm sorry that you feel this way. Have you tried to talk with him in a moment after?</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="0" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3" value="Correct">Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="1" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3" value="Not Correct">Not Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963" data-ref="2" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="1"><td colspan="4"><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3--1"><option value="-1">Select your choice</option><option value="errori_grammaticali">The response candidate contains grammatical errors.</option><option value="ripetizioni">The response candidate contains repetitions.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3--1-freetext" style="display:none;"></div><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--76adaa54-fa70-4e11-8997-c30f5bb83963--3--2-freetext"></div></td></tr><tr data-response-number="2"><td><div class="message-row" onmouseenter="fillMessage(this)" onmouseleave="resetMessage()"><div class="message-spk message-spk-pre-0">A</div><div class="message message0 message2">Who solved the problem was really you. Try to declare yourself the value that you have.</div><div class="message-spk message-spk-post-0">A</div></div></td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="0" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3" value="Correct">Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="1" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3" value="Not Correct">Not Correct</td><td><input type="radio" onchange="showMore(this)" data-sampleid="709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" data-ref="2" name="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3" value="I don&#39;t know">I don't know</td></tr><tr data-response-number="2"><td colspan="4"><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3--1" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><select class="browser-default custom-select" onchange="showElse(this)" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3--1"><option value="-1">Select your choice</option><option value="errori_grammaticali">The response candidate contains grammatical errors.</option><option value="ripetizioni">The response candidate contains repetitions.</option><option value="else">Why? Specify...</option></select><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3--1-freetext" style="display:none;"></div><div class="more--709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5" id="response_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3--2" style="display:none;"><label>Add or select a specific note relative to your choice (max 20 words):</label><input type="text" onkeyup="checkFreetext(this);" name="more_709210ad-42a6-4e03-8e29-d9bbaed7108f--d8dfbb7d-10a7-4067-ac85-6625b25ca3b5--3--2-freetext"></div></td></tr>
+							</tbody></table>
+							</div>
+							<a class="btn btn-info" href="javascript:;" onclick="back(&#39;3&#39;);">Previous</a><a class="btn btn-warning" href="javascript:;" onclick="proceed(&#39;3&#39;, &#39;last&#39;);">Next</a><input type="submit" class="btn btn-success" style="display: none;" value="Salva">							</div>
+													</form>
+
+
+					</div>
+					</div>
+<style>
+.code-instructions {
+	padding: 30px !important;
+    text-align: left !important;
+    line-height: 170%;
+    max-width: 1000px;
+    margin: auto;
+    max-width: 1000px;
+    margin: auto;
+}
+.st-box ul.nav.nav-tabs {
+    width: 100%;
+    display: block;
+}
+li.presentation {
+    width: 24%;
+    display: inline-block;
+    text-align: center;
+}
+.presentation a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid grey;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 110%;
+    padding-top: 7px;
+}
+.presentation.active a {
+    font-weight: bold;
+    background: #FFF;
+    border-color: #c081c0;
+    color: #c081c0;
+}
+.presentation a {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dadada;
+    color: #a47f8e;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 110%;
+    padding-top: 7px;
+}
+span.tooltip {
+  display: block;
+  width: 300px;
+  padding: 5px;
+  background: #FFF;
+  border: 1px solid #c081c0;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  position: fixed;
+  opacity: 1 !important;
+}
+.chat {
+    margin: auto;
+    background: #FFF;
+    padding: 30px;
+}
+.message {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding: 20px;
+    width: calc(90% - 60px);
+	display: inline-block;
+	font-weight: 400;
+}
+.message.message0 {
+    background: #d4e4bc;
+    border: 1px solid #ddecc5;
+}
+.message.message1 {
+    background: #c7e7e9;
+    margin-left: 10%;
+    border: 1px solid #d1e5e6;
+}
+.message.message2 {
+    background: #ffee8f;
+    border-color: #fbe25b;
+}
+td:nth-child(even), th:nth-child(even) {
+    background: #eee;
+}
+th{
+	border-bottom: 2px solid #eee;
+}
+.message-spk.message-spk-post-0, .message-spk.message-spk-pre-1 {
+    display: none;
+}
+.message-spk {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: bold;
+    color: #717f8f;
+    background: black;
+    display: inline-block;
+}
+.message-spk.message-spk-pre-0 {
+    margin-right: 10px;
+    background: #d4e4bc;
+    border: 1px solid #ddecc5;
+}
+.message-spk.message-spk-post-1 {
+    margin-left: 10px;
+    background: #c7e7e9;
+    border: 1px solid #d1e5e6;
+}
+.st-box-inner {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #eeeeee;
+    padding: 10px;
+}
+.question-row {
+    margin-bottom: 30px;
+}
+.question-row h4 {
+    font-weight: bold;
+}
+i.fa-question-circle {
+    margin-left: 10px;
+    color: #999999;
+	display: none;
+}
+input[type="radio"] {
+    margin-right: 5px;
+}
+td label {
+    margin-right: 10px;
+}
+td label {
+    margin-right: 10px;
+    color: #737373;
+	padding-left: 10px;
+}
+select.browser-default.custom-select {
+    width: 300px;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 3px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border-color: #e3e3e3;
+}
+div.mtab-content {
+    max-height: calc(100vh - 82px);
+}
+.chat-container {
+    width: 30%;
+    flex: 0 0 30%;
+    display: inline-block;
+    max-height: 100%;
+    overflow: auto;
+}
+.st-box.story {
+    width: 68.4%;
+    flex: 0 0 68%;
+    display: inline-block;
+    margin-left: 1%;
+    max-height: 100%;
+    overflow: auto;
+	min-width: 300px;
+	overflow-x: hidden;
+    padding-right: 20px;
+}
+.mtab-content > .box {
+    margin: 0px;
+    padding: 0px;
+}
+.highlight {
+	background: #e9d1d1;
+}
+td .message {
+    max-width: 400px;
+}
+body > .question-row {
+    position: fixed;
+    background: rgba(255,255,255,0.9);
+    top: 79px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+    height: calc(100vh - 80px);
+}
+body > .question-row h3 {
+    font-size: 400%;
+    margin-top: calc(50vh - 100px);
+}
+body > .question-row h4 {
+    display: none;
+}
+body > .question-row small {
+    font-size: 130%;
+    margin-top: calc(50vh - 100px);
+}
+</style>
+<script>
+function checkFreetext(obj) {
+	if ($(obj).val() != "")
+		$(obj).parents('tr:first').prev().find('.message2').removeClass('message2');
+}
+function showElse(obj) {
+	//console.log('else');
+	if ($(obj).val() == 'else') {
+		$('[name="'+$(obj).attr('name')+'-freetext"]').show();
+		$('[name="'+$(obj).attr('name')+'-freetext"]').addClass('highlight');
+		setTimeout(function() { $('[name="'+$(obj).attr('name')+'-freetext"]').removeClass('highlight'); }, 1000);
+	} else {
+		$('[name="'+$(obj).attr('name')+'-freetext"]').hide();
+		$(obj).parents('tr:first').prev().find('.message2').removeClass('message2');
+	}
+}
+function showMore(obj) {
+	console.log('more--'+$(obj).attr('data-sampleid'));
+	$('.more--'+$(obj).attr('data-sampleid')).hide();
+
+	console.log('#'+$(obj).attr('name')+'--'+$(obj).attr('data-ref'));
+	if ($('#'+$(obj).attr('name')+'--'+$(obj).attr('data-ref')).length) {
+		$('#'+$(obj).attr('name')+'--'+$(obj).attr('data-ref')).show();
+		$('#'+$(obj).attr('name')+'--'+$(obj).attr('data-ref')).addClass('highlight');
+		setTimeout(function() { $('#'+$(obj).attr('name')+'--'+$(obj).attr('data-ref')).removeClass('highlight'); }, 1000);
+	} else {
+		$(obj).parents('tr:first').find('.message2').removeClass('message2');
+	}
+
+}
+function verifyForm() {
+	$('select:visible').each(function() {
+		if ($(this).val() == -1) {
+			proceed = false;
+		}
+	});
+	$('input[type="text"]:visible').each(function() {
+		if ($(this).val() == "") {
+			proceed = false;
+		}
+	});
+	var proceed_cb = true;
+	$('tr:visible').each(function(){
+		if ($(this).find('input[type="radio"]').length) {
+			var c = false;
+			$(this).find('input[type="radio"]').each(function(){
+				if ($(this).is(':checked'))
+					c = true;
+			});
+			if (!c)
+				proceed_cb = false;
+		}
+	});
+	if (proceed && proceed_cb) {
+		if ($('.time_question:last').val().trim() == "")
+			$('.time_question:last').val(getCurrentDatetime());
+		return true;
+	} else {
+		if (!proceed && !proceed_cb) {
+			alert('Select the answer and fill the reason, please');
+		} else if (!proceed) {
+			alert('Fill the reason, please');
+		} else {
+			alert('Select all the answers, please');
+		}
+		return false;
+	}
+}
+function proceed(val, last) {
+	var proceed = true;
+	$('select:visible').each(function() {
+		if ($(this).val() == -1) {
+			proceed = false;
+		}
+	});
+	$('input[type="text"]:visible').each(function() {
+		if ($(this).val() == "") {
+			proceed = false;
+		}
+	});
+	var proceed_cb = true;
+	$('tr:visible').each(function(){
+		if ($(this).find('input[type="radio"]').length) {
+			var c = false;
+			$(this).find('input[type="radio"]').each(function(){
+				if ($(this).is(':checked'))
+					c = true;
+			});
+			if (!c)
+				proceed_cb = false;
+		}
+	});
+	if (proceed && proceed_cb) {
+		$('.btn-info').show();
+		if ($('#question_'+val).find('[data-response-number]:last').is(':visible')) {
+				$('.question').hide();
+				$('#question_'+(parseInt(val)+1)).show();
+				$('.presentation').removeClass('active');
+				$('#presentation_'+(parseInt(val)+1)).addClass('active');
+
+				if ($('#task_time_question_'+parseInt(val)).val().trim() == "")
+					$('#task_time_question_'+parseInt(val)).val(getCurrentDatetime());
+
+				if ($('#task_time_start_question_'+(parseInt(val)+1)).val().trim() == "")
+					$('#task_time_start_question_'+(parseInt(val)+1)).val(getCurrentDatetime());
+
+				$('.st-box.story').scrollTo($('#count-navigation'),250);
+
+				 $('#question_'+(parseInt(val)+1)).find('[data-response-number]').hide();
+				  $('#question_'+(parseInt(val)+1)).find('[data-response-number="0"]').show();
+
+
+				$('body').prepend($('.question-row:visible').clone());
+				setTimeout(function() { $('body > .question-row').remove(); }, 2000);
+
+
+		} else {
+			last_n = $('#question_'+val).find('[data-response-number]:visible').last().attr('data-response-number');
+			$('#question_'+val).find('[data-response-number]').hide();
+			$('#question_'+val).find('[data-response-number="'+(parseInt(last_n)+1)+'"]').show();
+			if (last == 'last' && $('#question_'+val).find('[data-response-number="'+(parseInt(last_n)+1+1)+'"]').length < 1) {
+				$('.btn-warning').hide();
+				$('.btn-success').show();
+			}
+		}
+	} else {
+		if (!proceed && !proceed_cb) {
+			alert('Select the answer and fill the reason, please');
+		} else if (!proceed) {
+			alert('Fill the reason, please');
+		} else {
+			alert('Select all the answers, please');
+		}
+	}
+}
+function getCurrentDatetime() {
+	var currentDate = new Date();
+	var cDay = currentDate.getDate();
+	var cMonth = currentDate.getMonth() + 1;
+	var cYear = currentDate.getFullYear();
+	return cYear + "-" + cMonth + "-" + cDay + " " + currentDate.getHours() + ":" + currentDate.getMinutes() + ":" + currentDate.getSeconds();
+}
+function back(val) {
+	if (!$('#question_'+val).find('[data-response-number]:first').is(':visible')) {
+		last_n = $('#question_'+val).find('[data-response-number]:visible').last().attr('data-response-number');
+		$('#question_'+val).find('[data-response-number]').hide();
+		$('#question_'+val).find('[data-response-number="'+(parseInt(last_n)-1)+'"]').show();
+	} else {
+		$('.question').hide();
+		$('#question_'+(parseInt(val)-1)).show();
+		$('.presentation').removeClass('active');
+		$('#presentation_'+(parseInt(val)-1)).addClass('active');
+
+		$('#question_'+(parseInt(val)-1)).find('[data-response-number]').hide();
+		last_n = $('#question_'+(parseInt(val)-1)).find('[data-response-number]:last').attr('data-response-number');
+		$('#question_'+(parseInt(val)-1)).find('[data-response-number="'+last_n+'"]').show();
+	}
+
+	if (val == 0 && $('#question_'+val).find('[data-response-number]:first').is(':visible')) {
+		$('#question_'+val).find('.btn-info').hide();
+	}
+	$('.btn-warning').show();
+	$('.btn-success').hide();
+}
+function fillMessage(obj) {
+	$('#fill-message').text($(obj).find('.message:first').text());
+	$('.chat-container').scrollTop(100000000000);
+}
+function resetMessage(obj) {
+			$('#fill-message').text('<response candidate>');
+	}
+$(document).ready(function() {
+	$('#task_time_start_question_0').val(getCurrentDatetime());
+
+	 $('.tips').each(function() {
+		  var $a = $(this);
+		  $a.removeAttr("title");
+		  var tooltip = $('<span class="tooltip"/>');
+		  tooltip.appendTo($a).hide();
+		  // continua
+		  $a.mouseover(function(e) {
+			   var top = e.pageY;
+			   var left = e.pageX;
+			   tooltip.css({
+				display: 'block',
+				top: top + 5,
+				left: left -300 + 5
+			   }).html($($(this).attr('tooltip-src')).html());
+			  });
+		  $a.mouseout(function() {
+			   tooltip.hide();
+			});
+	 });
+
+	 $('#question_0').find('[data-response-number]').hide();
+	  $('#question_0').find('[data-response-number="0"]').show();
+	  $('#question_0').find('.btn-info').hide();
+
+	$('body').prepend($('.question-row:visible').clone());
+	setTimeout(function() { $('body > .question-row').remove(); }, 2000);
+
+});
+</script>						</div>
+
+			<div id="append_element">
+				</div>
+			</div>
+      </div>
+    </div>
+  </div>
+  <style>
+	.main-panel {
+		width: 100% !important;
+	}
+	.main-panel > .content {
+		padding: 0px !important;
+		padding-top: 30px !important;
+	}
+	.container-fluid {
+		padding: 0px !important;
+		margin: 0px !important;
+	}
+	div.mtab-content {
+		padding-right: 0px !important;
+	}
+  </style>
+
+
+</body></html>

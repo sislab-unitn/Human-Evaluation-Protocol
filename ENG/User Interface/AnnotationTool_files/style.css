@@ -1,0 +1,282 @@
+
+
+.form-json-tools i.fa-plus{
+	cursor: pointer;
+	margin-bottom: 10px;
+}
+.box{
+    min-height: 20px;
+    padding: 19px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.05);
+}
+.box legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.ui-accordion-content-active {
+    height: auto !important;
+}
+
+.form-login {
+	margin-top: 50px;
+    background-color: #EDEDED;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:#d2d2d2;
+    border-width: 5px;
+    box-shadow:0 1px 0 #cfcfcf;
+}
+.login-wrapper {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.login-wrapper a {
+    font-size: 80%;
+}
+.form-login h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.col-centered.center-block {
+	margin: auto;
+}
+
+nav.navbar {
+    width: 100%;
+    display: block;
+    height: 60px;
+	padding-top: 5px;
+	padding-bottom:5px;
+    background: #3c8dbc;
+}
+nav.navbar img{
+	max-height: 40px;
+}
+.right-nav-menu {
+    display: inline-block;
+    float: right;
+    color: white !important;
+    list-style: none;
+    margin-top: 10px;
+}
+.right-nav-menu li a{
+	color: white !important;
+}
+.right-nav-menu ul.dropdown-menu {
+    background-color: #5199c7;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 0px;
+}
+.main {
+    width: 100%;
+    min-height: 100%;
+    display: block;
+}
+aside {
+    width: 200px;
+    background: #616161;
+    display: inline-block;
+	height: 100%;
+	max-height: 100% !important;
+    overflow: auto !important;
+}
+a.list-group-item {
+    background: transparent;
+    color: #FFF;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #868686;
+    border-color: #868686;
+    border-radius: 0px;
+}
+.no-padding {
+    padding: 0px;
+}
+div.mtab-content {
+    width: 100%;
+	height: 100%;
+	max-height: calc(100% - 110px);
+    overflow: auto;
+}
+.form-group.form-group-autonew {
+    background: #ccdae2;
+    padding: 10px;
+}
+.fixed-height-100 {
+    height: 100%;
+    max-height: 100%;
+    overflow: auto;
+}
+#current .fixed-height-100 {
+	max-height: calc(100% - 100px);
+}
+span[onclick], div[onclick]{
+	cursor: pointer;
+}
+div.dialogs-entities,
+div.dialogs-intents {
+    margin-top: 10px;
+    padding-top: 10px;
+    background: #e8e8e8;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 0px;
+    font-size: 80%;
+}
+div.dialogs-entities .form-group,
+div.dialogs-intents .form-group {
+    margin-bottom: 5px;
+}
+[onclick] {
+	cursor: pointer;
+}
+.label-required:after {
+    content: " *";
+    color: red;
+    vertical-align: top;
+}
+.row.main-container {
+    max-height: calc(100% - 60px);
+    height: calc(100% - 60px);
+}
+aside {
+    height: 100%;
+}
+.section-container {
+    max-height: calc(100% - 60px);
+}
+
+
+/* SLIDER */
+label.hubslider-left, label.hubslider-right {
+    width: 15%;
+	text-align:center;
+}
+.hubslider-bottom-container label.hubslider-left, .hubslider-bottom-container label.hubslider-right{
+	width: 50%;
+}
+.hubslider-bottom-container label.hubslider-left {
+	text-align: left;
+}
+.hubslider-bottom-container label.hubslider-right{
+	text-align: right;
+}
+.hubslider-container {
+	width: 100%;
+	height: 80%;
+	display: inline-block;
+}
+.hubslider-bottom-container {
+	width: 100%;
+	height: 20%;
+	display: inline-block;
+}
+.hubslider{
+	display:inline;
+}
+/* Hide the browser's default radio button */
+.hubslider input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom radio button */
+.hubslider-checkmark {
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  display: inline-block;
+}
+.hubslider.hubslider-before-checked .hubslider-checkmark {
+    background: #333;
+}
+/* On mouse-over, add a grey background color */
+.hubslider:hover > .hubslider-checkmark {
+  background-color: #333;
+}
+
+/* When the radio button is checked, add a blue background */
+.hubslider input:checked ~ .hubslider-checkmark {
+  background-color: #333;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.hubslider-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.hubslider input:checked ~ .hubslider-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.hubslider .hubslider-checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.confirm_delete.relazioni,
+.confirm_delete.solo_elemento{
+	visibility:hidden;
+}
+
+
+
+/** new style **/
+
+.sidebar .logo:after {
+    background-color: purple;
+}
+.main-panel>.content {
+    margin-top: 50px;
+}
+nav.navbar.navbar-expand-lg.navbar-transparent.navbar-absolute.fixed-top {
+    border-bottom: 1px solid purple;
+    background: white !important;
+}
+textarea {
+    resize: auto !important;
+}
+.form-group.form-group-autonew {
+    background: #FFF !important;
+}
+.main-panel>.content {
+    padding-right: 0px;
+}
+.content > .container-fluid {
+    padding-right: 0px;
+}
+div.mtab-content{
+    padding-right: 10px;
+}
+.nav-tabs .nav-item .nav-link, .nav-tabs .nav-item .nav-link:hover, .nav-tabs .nav-item .nav-link:focus {
+    color: #000 !important;
+}
+
+/* ----------- */
