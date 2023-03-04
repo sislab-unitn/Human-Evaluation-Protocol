@@ -1,6 +1,6 @@
 # Human Evaluation Protocol [v1.0]
 ## Introduction
-We propose a Protocol for Human Evaluation of automatically generated text. The Protocol consists of all required steps and materials in a transparent and detailed form, including the task design, recruitment of the annotators, execution of the task, and result reporting. Such protocol and process can be used as-is , as-a-whole, in-part, or modified and extended while maintaining public access to versioning and reference in publications. We invite the community to use this protocol - or its future community amended versions - as a transparent, replicable, and comparable approach for the task of human evaluation of generated responses. The reference paper of this protocol is accessible at [PAPER](./paper.pdf) and the corresponding poster is accessible at [POSTER](./poster.pdf). This work was presented at EMNLP 2022, the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics.
+We propose a Protocol for Human Evaluation of automatically generated text. The Protocol consists of all required steps and materials in a transparent and detailed form, including the task design, recruitment of the annotators, execution of the task, and result reporting. Such protocol and process can be used as-is, as-a-whole, in-part, or modified and extended while maintaining public access to versioning and reference in publications. We invite the community to use this protocol - or its future community amended versions - as a transparent, replicable, and comparable approach for the task of human evaluation of generated responses. The reference paper of this protocol is accessible at [PAPER](./paper.pdf) and the corresponding poster is accessible at [POSTER](./poster.pdf). This work was presented at EMNLP 2022, the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics.
 
 ## Usage
 This project can be used as it is, or you can modify and/or extend it depending on your needs. In case of modification or addition we would ask you to add this information to the this project in order to improve and generalize this protocol to the evaluation of a broader set of natural language generation tasks.
@@ -47,3 +47,23 @@ Human Evaluation Protocol is licensed with GPL-3.0-or-later, as found in the LIC
 The brach master correspond to the most updated version, while other versions will be stored in other branches.
 
 *Add all changes you did compared with the previous version*
+
+## How to cite us 
+```
+@inproceedings{mousavi-etal-2022-evaluation,
+    title = "Evaluation of Response Generation Models: Shouldn{'}t It Be Shareable and Replicable?",
+    author = "Mousavi, Seyed Mahed  and
+      Roccabruna, Gabriel  and
+      Lorandi, Michela  and
+      Caldarella, Simone  and
+      Riccardi, Giuseppe",
+    booktitle = "Proceedings of the 2nd Workshop on Natural Language Generation, Evaluation, and Metrics (GEM)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.gem-1.12",
+    pages = "136--147",
+    abstract = "Human Evaluation (HE) of automatically generated responses is necessary for the advancement of human-machine dialogue research. Current automatic evaluation measures are poor surrogates, at best. There are no agreed-upon HE protocols and it is difficult to develop them. As a result, researchers either perform non-replicable, non-transparent and inconsistent procedures or, worse, limit themselves to automated metrics. We propose to standardize the human evaluation of response generation models by publicly sharing a detailed protocol. The proposal includes the task design, annotators recruitment, task execution, and annotation reporting. Such protocol and process can be used as-is, as-a-whole, in-part, or modified and extended by the research community. We validate the protocol by evaluating two conversationally fine-tuned state-of-the-art models (GPT-2 and T5) for the complex task of personalized response generation. We invite the community to use this protocol - or its future community amended versions - as a transparent, replicable, and comparable approach to HE of generated responses.",
+}
+```
