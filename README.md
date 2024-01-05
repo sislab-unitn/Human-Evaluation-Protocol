@@ -67,3 +67,8 @@ The brach master correspond to the most updated version, while other versions wi
     abstract = "Human Evaluation (HE) of automatically generated responses is necessary for the advancement of human-machine dialogue research. Current automatic evaluation measures are poor surrogates, at best. There are no agreed-upon HE protocols and it is difficult to develop them. As a result, researchers either perform non-replicable, non-transparent and inconsistent procedures or, worse, limit themselves to automated metrics. We propose to standardize the human evaluation of response generation models by publicly sharing a detailed protocol. The proposal includes the task design, annotators recruitment, task execution, and annotation reporting. Such protocol and process can be used as-is, as-a-whole, in-part, or modified and extended by the research community. We validate the protocol by evaluating two conversationally fine-tuned state-of-the-art models (GPT-2 and T5) for the complex task of personalized response generation. We invite the community to use this protocol - or its future community amended versions - as a transparent, replicable, and comparable approach to HE of generated responses.",
 }
 ```
+## Studies using this protocol 
+Here is a list of publications that evaluated thier NLG model via our protocol:
+1. [Response Generation in Longitudinal Dialogues: Which Knowledge Representation Helps?](https://aclanthology.org/2023.nlp4convai-1.1/) (Mousavi et al., NLP4ConvAI 2023)
+2. [Are LLMs Robust for Spoken Dialogues?](https://arxiv.org/abs/2401.02297) (Mousavi et al., IWSDS2024)
+
