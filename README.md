@@ -33,10 +33,12 @@ Version [v1.1] extends the previous version of the protocol adding a new dimensi
 <details>
 <summary>Version [v1.0]</summary>
 This version [v1.0] of the protocol currently supports the following dimensions:
-- **Appropriateness**: whether the proposed response candidate makes sense with respect to the dialogue history; and to investigate if it is a proper continuation of the given dialogue (thus coherent).
-- **Contextualization**: whether the proposed response candidate contains references to the dialogue context (thus not generic); and to investigate whether the response refers to non-existing or contradicting information (such as model hallucination).
-- **Listening**: whether the speaker of the proposed response is following the dialogue with attention (note that generic responses are also indicating that the speaker is not following the dialogue).
-- **Correctness**: whether the response candidate is correct considering the grammar, syntax and structure of the response.
+<ul>
+<li> <b>Appropriateness</b>: whether the proposed response candidate makes sense with respect to the dialogue history; and to investigate if it is a proper continuation of the given dialogue (thus coherent). </li>
+<li> <b>Contextualization</b>: whether the proposed response candidate contains references to the dialogue context (thus not generic); and to investigate whether the response refers to non-existing or contradicting information (such as model hallucination). </li>
+<li> <b>Listening</b>: whether the speaker of the proposed response is following the dialogue with attention (note that generic responses are also indicating that the speaker is not following the dialogue). </li>
+<li> <b>Correctness</b>: whether the response candidate is correct considering the grammar, syntax and structure of the response. </li>
+</ul>
 </details>
 
 #### Questions
